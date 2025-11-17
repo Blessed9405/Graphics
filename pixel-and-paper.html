@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel & Paper - Graphic Design & Secretarial Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <nav class="nav-menu" id="navMenu">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <a href="#home"><i class="fas fa-home"></i> Home</a>
+        <a href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+        <a href="#services"><i class="fas fa-concierge-bell"></i> Services</a>
+        <a href="#contact" class="contact-btn"><i class="fas fa-paper-plane"></i> Request a Design</a>
+    </nav>
+    
+    <!-- Floating elements for visual interest -->
+    <div class="floating floating-1"></div>
+    <div class="floating floating-2"></div>
+    
+    <!-- Header Section with Background Image -->
+    <header id="home">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <h1 class="logo">
+                        <span class="logo-line1">PIXEL &</span>
+                        <span class="logo-line2">PAPER</span>
+                    </h1>
+                </div>
+                <div class="tagline">GRAPHIC DESIGN & SECRETARIAL SERVICES</div>
+                <div class="sub-tagline">
+                    We combine creative design solutions with professional secretarial services 
+                    to help your business stand out and operate efficiently.
+                </div>
+                <a href="#about" class="cta-button">Learn More About Us</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>ABOUT PIXEL & PAPER</h2>
+                    <p>
+                        At Pixel & Paper, we bridge the gap between digital creativity and administrative excellence. 
+                        Our unique approach combines cutting-edge graphic design with professional secretarial services 
+                        to provide comprehensive solutions for modern businesses.
+                    </p>
+                    <p>
+                        Founded on the principle that every business deserves both striking visual identity and 
+                        seamless operational support, we've helped countless organizations enhance their brand 
+                        presence while streamlining their administrative processes.
+                    </p>
+                    <p>
+                        Whether you need a stunning logo, professional documents, or efficient secretarial support, 
+                        our team of creative designers and administrative professionals work together to deliver 
+                        results that exceed expectations.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="graphic-elements">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="square square-1"></div>
+                        <div class="square square-2"></div>
+                    </div>
+                    <div class="brand-logo">
+                        <h1>
+                            <span class="line1">PIXEL &</span><br>
+                            <span class="line2">PAPER</span>
+                        </h1>
+                        <p>GRAPHIC DESIGN & SECRETARIAL SERVICES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">OUR SERVICES</h2>
+            <div class="services-grid">
+                <!-- Technical Services -->
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>TECHNICAL SERVICES</h3>
+                    <ul class="service-list">
+                        <li>TECHNICAL SUPPORT</li>
+                        <li>SALE OF GADGETS</li>
+                        <li>GADGET COUNSELLING</li>
+                    </ul>
+                </div>
+                
+                <!-- Clerical Services -->
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>CLERICAL SERVICES</h3>
+                    <ul class="service-list">
+                        <li>TYPING OF DOCUMENTS</li>
+                        <li>POWERPOINT CREATION</li>
+                        <li>SPREADSHEET CREATION</li>
+                        <li>PROOFREADING</li>
+                    </ul>
+                </div>
+                
+                <!-- Creative Services -->
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>CREATIVE SERVICES</h3>
+                    <ul class="service-list">
+                        <li>FLYER AND POSTER DESIGN</li>
+                        <li>LOGO DESIGN</li>
+                        <li>VIDEO EDITING/ANIMATION</li>
+                        <li>UI/UX DESIGN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Form Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">REQUEST A DESIGN</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-phone"></i> 0591899043</li>
+                        <li><i class="fas fa-phone"></i> 0509286919</li>
+                        <li><i class="fas fa-phone"></i> 0591348909</li>
+                        <li><i class="fas fa-envelope"></i> info@pixelandpaper.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                    </ul>
+                    <p>Fill out the form and we'll get back to you within 24 hours to discuss your design needs.</p>
+                </div>
+                <div class="contact-form">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="designRequestForm">
+
+                        <!-- Remember to put the access key from the mail in the value part. After that delete this comment -->
+                        <input type="hidden" name="access_key" value="8e00916d-61ad-4780-a4c5-60e0a73cd66f">
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="flyer">Flyer and Poster Design</option>
+                                <option value="logo">Logo Design</option>
+                                <option value="video">Video Editing/Animation</option>
+                                <option value="uiux">UI/UX Design</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="clerical">Clerical Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-100">Under ¢100</option>
+                                <option value="100-500">¢100 - ¢500</option>
+                                <option value="500-1000">¢500 - ¢1000</option>
+                                <option value="over-1000">Over ¢1000</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="deadline">Project Deadline</label>
+                            <input type="date" id="deadline" name="deadline">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" placeholder="Please describe your design requirements, including any specific colors, styles, or references..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CONTACT US</h3>
+                    <ul class="contact-info-footer">
+                        <li><i class="fas fa-phone"></i> 0591899043</li>
+                        <li><i class="fas fa-phone"></i> 0509286919</li>
+                        <li><i class="fas fa-phone"></i> 0591348909</li>
+                        <li><i class="fas fa-envelope"></i> info@pixelandpaper.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>FOLLOW US</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Pixel & Paper. All rights reserved. | Graphic Design & Secretarial Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
